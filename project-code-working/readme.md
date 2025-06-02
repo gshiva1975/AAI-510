@@ -9,7 +9,10 @@ On macOS/Linux:
 
 source a2a-venv/bin/activate
 
-pip install --upgrade pip pip install transformers sentence-transformers pandas matplotlib seaborn pip install -e . python ./a2a_iphone_sentiment_agent.py
+pip install --upgrade pip 
+pip install transformers sentence-transformers pandas matplotlib seaborn 
+pip install -e . python 
+./a2a_iphone_sentiment_agent.py
 
 # On terminal 2
 
