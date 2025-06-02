@@ -1,21 +1,38 @@
 
 
-source a2a-venv/bin/activate
+**On terminal 1**
+# Step 1: Create the virtual environment
+python3 -m venv a2a-venv
 
-  841  cd A2A_Project_With_Code_and_SDK
-  842  cd A2A_Project_With_Code_and_SDK
-  843  source a2a-venv/bin/activate
-  844  pip install --upgrade pip
-  845  pip install transformers sentence-transformers pandas matplotlib seaborn
-  846  pip install -e .
-  847  source a2a-venv/bin/activate\n
-  848  python a2a_iphone_sentiment_agent.py
-  849  pwd
-  850  cd a2a
-  851  vi schema.py
-  852  cd -
-  853  python a2a_iphone_sentiment_agent.py
-  854  python a2a_iphone_sentiment_agent.py
-  855  ls
-  856  python ./a2a_main.py
-(a2a-venv) gshiva@Gangadhars-MacB
+# Step 2: Activate the environment
+# On macOS/Linux:
+source a2a-venv/bin/activate
+  
+  
+  pip install --upgrade pip
+  pip install transformers sentence-transformers pandas matplotlib seaborn
+  pip install -e .
+  python ./a2a_iphone_sentiment_agent.py
+
+
+**On terminal 2**
+# Step 2: Activate the environment
+# On macOS/Linux:
+source a2a-venv/bin/activate
+python ./a2a_twitter_sentiment_agent.py
+
+**On terminal 3**
+# Step 2: Activate the environment
+# On macOS/Linux:
+source a2a-venv/bin/activate
+python ./a2a_main.py
+
+**On terminal 4**
+# Step 2: Activate the environment
+# On macOS/Linux:
+source a2a-venv/bin/activate
+python ./test_a2a_sentiment_with_plot.py
+
+
+
+  
