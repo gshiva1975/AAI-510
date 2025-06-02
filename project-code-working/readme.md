@@ -18,6 +18,7 @@ pip install -e . python
 
 Step 2: Activate the environment
 On macOS/Linux:
+
 source a2a-venv/bin/activate 
 python ./a2a_twitter_sentiment_agent.py
 
@@ -25,6 +26,7 @@ python ./a2a_twitter_sentiment_agent.py
 
 Step 2: Activate the environment
 On macOS/Linux:
+
 source a2a-venv/bin/activate 
 python ./a2a_main.py
 
@@ -32,5 +34,6 @@ python ./a2a_main.py
 
 Step 2: Activate the environment
 On macOS/Linux:
+
 source a2a-venv/bin/activate 
 python ./test_a2a_sentiment_with_plot.py
