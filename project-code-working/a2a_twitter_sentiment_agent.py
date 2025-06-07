@@ -6,7 +6,7 @@ import pandas as pd
 
 class TwitterAgent(Agent):
     def __init__(self):
-        super().__init__("iphone_sentiment")
+        super().__init__("twitter_sentiment")
         self.sentiment_model = pipeline(
             "sentiment-analysis",
             model="cardiffnlp/twitter-roberta-base-sentiment"

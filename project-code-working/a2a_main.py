@@ -6,7 +6,7 @@ from a2a.message import Message
 from a2a.routing import ZeroShotRouter
 from a2a.schema import ToolDefinition
 
-from a2a_iphone_sentiment_agent import TwitterAgent as IPhoneAgent
+from a2a_iphone_sentiment_agent import IPhoneAgent as IPhoneAgent
 from a2a_twitter_sentiment_agent import TwitterAgent as TwitterAgentAgent
 
 class CoordinatorAgent(Agent):

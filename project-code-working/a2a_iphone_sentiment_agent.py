@@ -5,7 +5,7 @@ from transformers import pipeline
 from sentence_transformers import SentenceTransformer, util
 import pandas as pd
 
-class TwitterAgent(Agent):
+class IPhoneAgent(Agent):
     def __init__(self):
         super().__init__("iphone_sentiment")
         self.sentiment_model = pipeline(
@@ -75,4 +75,4 @@ class TwitterAgent(Agent):
 
 if __name__ == "__main__":
     import asyncio
-    asyncio.run(TwitterAgent().run())
+    asyncio.run(IPhoneAgent().run())
